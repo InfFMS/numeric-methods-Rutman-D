@@ -53,11 +53,6 @@ while i <= 3.14:
     #print(l, np.sqrt((f(i-0.1) - f(i))**2 + 0.1**2))
 print("3:", l)
 
-plt.plot(x, y)
-plt.xlabel("Ось X")
-plt.ylabel("Ось Y")
-plt.show()
-
 ##################################################################
 
 def f(x):
