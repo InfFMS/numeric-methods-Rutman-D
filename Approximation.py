@@ -18,6 +18,11 @@ while b - a > 0.0001:
     c = (a + b) / 2
 print("first:", c)
 
+plt.plot(x, y)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.show()
+
 ################################################################################
 
 def f(x):
@@ -57,6 +62,11 @@ while b - a > 0.0001:
     c2 = (a + b) / 2
 print("second:", c, c1, c2)
 
+plt.plot(x, y)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.show()
+
 ################################################################################
 
 def f(x):
@@ -77,6 +87,10 @@ while b - a > 0.0001:
     c = (a + b) / 2
 print("third:", c)
 
+plt.plot(x, y)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.show()
 
 ################################################################################
 
@@ -109,6 +123,10 @@ while b - a > 0.0001:
 
 print("fourth:", c, c1)
 
+plt.plot(x, y)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.show()
 
 ################################################################################
 
@@ -129,5 +147,9 @@ while b - a > 0.0001:
         a = c
     c = (a + b) / 2
 
-print("fiveth:", c)
+print("fifth:", c)
 
+plt.plot(x, y)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.show()
